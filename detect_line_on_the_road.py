@@ -40,7 +40,7 @@ def Draw_the_line(img,lines):
         Horline = []
         for line in lines:
 
-            for x1,y1,x2,y2 in line: # {x1 ve y1 this is one line's DOWN coordinate} {x2 and y2 one line's UP coordinate  x2 ve y2 üst nokta
+            for x1,y1,x2,y2 in line: # {x1 and y1 this is one line's DOWN coordinate} {x2 and y2 one line's UP coordinate  
 
 
                 if abs(y2 - y1) > 15 and abs(x2-x1)>7  : ##  side line
